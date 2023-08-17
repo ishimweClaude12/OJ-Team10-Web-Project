@@ -568,12 +568,43 @@ video {
   }
 }
 
+.w-\[2\.25rem\] {
+  width: 2.25rem;
+}
+
+.w-9 {
+  width: 2.25rem;
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .text-7xl {
   font-size: 4.5rem;
   line-height: 1;
 }
 
+.font-extrabold {
+  font-weight: 800;
+}
+
 .text-blue-800 {
   --tw-text-opacity: 1;
   color: rgb(30 64 175 / var(--tw-text-opacity));
+}
+
+.text-\[\#04040482\] {
+  color: #04040482;
+}
+
+.text-\[\#116355\] {
+  --tw-text-opacity: 1;
+  color: rgb(17 99 85 / var(--tw-text-opacity));
 }
