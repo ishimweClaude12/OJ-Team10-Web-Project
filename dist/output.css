@@ -534,6 +534,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+
 .container {
   width: 100%;
 }
@@ -596,12 +597,56 @@ video {
 
 .font-title {
   font-family: Raleway;
+
+.z-20 {
+  z-index: 20;
+}
+
+.-mt-2 {
+  margin-top: -0.5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-12 {
+  gap: 3rem;
+}
+
+.bg-hero-pattern {
+  background-image: url('../../images/bg_hero.svg');
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .text-7xl {
   font-size: 4.5rem;
   line-height: 1;
 }
+
 
 .font-extrabold {
   font-weight: 800;
@@ -659,10 +704,35 @@ video {
 
   .md\:font-extrabold {
     font-weight: 800;
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.font-thin {
+  font-weight: 100;
+}
+
+.text-base {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:mx-12 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .md\:hidden {
+    display: none;
+
   }
 }
 
 @media (min-width: 1024px) {
+
   .lg\:mr-40 {
     margin-right: 10rem;
   }
@@ -673,5 +743,9 @@ video {
 
   .lg\:w-5\/6 {
     width: 83.333333%;
+
+  .lg\:flex {
+    display: flex;
+
   }
 }
