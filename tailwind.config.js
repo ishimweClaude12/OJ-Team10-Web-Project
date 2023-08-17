@@ -12,6 +12,11 @@ module.exports = {
         base: "#fff",
       },
 
+      backgroundImage: {
+        "hero-pattern": "url('../../images/bg_hero.svg')",
+      },
+
+
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         para: ["Montserrat"],
