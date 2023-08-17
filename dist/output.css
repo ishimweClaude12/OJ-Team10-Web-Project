@@ -534,16 +534,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-primary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(138 204 80 / var(--tw-bg-opacity));
-}
-
-.bg-slate-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
-}
-
 .text-7xl {
   font-size: 4.5rem;
   line-height: 1;
