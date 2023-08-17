@@ -10,6 +10,9 @@ module.exports = {
         darkest: "#000000",
         base: "#fff",
       },
+      backgroundImage: {
+        "hero-pattern": "url('../../images/bg_hero.svg')",
+      },
     },
   },
   plugins: [],
