@@ -642,6 +642,10 @@ video {
   font-family: Raleway;
 }
 
+.font-poppins {
+  font-family: Poppins, sans-serif;
+}
+
 .text-7xl {
   font-size: 4.5rem;
   line-height: 1;
@@ -650,6 +654,11 @@ video {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-extrabold {
@@ -664,6 +673,10 @@ video {
   font-weight: 100;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .text-\[\#04040482\] {
   color: #04040482;
 }
@@ -676,6 +689,11 @@ video {
 .text-secondary {
   --tw-text-opacity: 1;
   color: rgb(17 99 85 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
@@ -717,6 +735,10 @@ video {
 
   .md\:font-semibold {
     font-weight: 600;
+  }
+
+  .md\:font-bold {
+    font-weight: 700;
   }
 }
 
