@@ -2,7 +2,13 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        para: ["Montserrat"],
+        title: ["Raleway"],
+      }
+    },
   },
   plugins: [],
 };
