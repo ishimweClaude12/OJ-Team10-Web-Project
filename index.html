@@ -16,16 +16,29 @@
     }
 
     window.onload = () => {
-        loadComponents('header', 'src/sections/header.html');
+        loadComponents('header', 'src/sections/header.html'); 
+        loadComponents('manageT2', 'src/sections/manageTeam/manageT2.html');
+        loadComponents('manage', 'src/sections/manageTeam/manageTeam.html');
         loadComponents('manageTeam', 'src/sections/manageTeam/manageTeam.html');
+        loadComponents('manageHero', 'src/sections/manageTeam/manageHero.html');
+ dev
         loadComponents('contact', 'src/sections/contact.html');
         loadComponents('footer', 'src/sections/footer.html');
     }
 </script>
 <body>
+    <!-- <div id="header"></div> -->
+    <!-- <div id="mange"></div> -->
+    
+  <!--  <div id="contact"></div>
+    <div id="footer"></div> -->
+
     <div id="header"></div>
     <div id="manageTeam"></div>
+    <div id="manageHero"></div>
+    <div id="manageT2"></div>
     <div id="contact"></div>
     <div id="footer"></div>
+
 </body>
 </html>
