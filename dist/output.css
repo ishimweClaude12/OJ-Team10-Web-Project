@@ -900,10 +900,6 @@ video {
     line-height: 1.75rem;
   }
 
-  .md\:font-bold {
-    font-weight: 700;
-  }
-
   .md\:font-extrabold {
     font-weight: 800;
   }
@@ -914,6 +910,10 @@ video {
 
   .md\:font-semibold {
     font-weight: 600;
+  }
+
+  .md\:font-bold {
+    font-weight: 700;
   }
 }
 
